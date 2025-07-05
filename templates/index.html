@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spin the Wheel</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Spin the Wheel 🎡</h1>
+    <input id="answerInput" type="text" placeholder="Add option..." />
+    <button onclick="addAnswer()">Add</button>
+    <button onclick="spin()">Spin</button>
+    <canvas id="wheelCanvas" width="500" height="500"></canvas>
+    <h2 id="resultText"></h2>
+    <button id="removeBtn" style="display:none;" onclick="removeResult()">Remove Selected</button>
+
+    <script src="/static/wheel.js"></script>
+</body>
+</html>
